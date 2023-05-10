@@ -1,3 +1,46 @@
+
+
 body {
     text-align: center;
+}
+
+.color__circle{
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 1rem;
+}
+
+.color__circle p{
+    text-align: center;
+
+}
+
+.lighter {
+    background-color: var(--mandarin_orange-50);
+}
+
+.light {
+    background-color: var(--mandarin_orange-100);
+}
+
+.regular {
+    background-color: var(--mandarin_orange-200);
+}
+
+.dark {
+    background-color: var(--mandarin_orange-300);
+}
+
+.darker {
+    background-color: var(--mandarin_orange-400);
+}
+
+.sdark {
+    background-color: var(--mandarin_orange-500);
+}
+
+.ssdark {
+    background-color: var(--mandarin_orange-600);
 }
